@@ -1,0 +1,10 @@
+This is a blank repository for Maker Press.  Here's what you (or your editor) need to do to install it:
+
+* Fork it into your own account
+* Modify the _project.ini_ file (project name, author, etc)
+* Push the repo to your server:
+** git push project@<your server address>:git_incoming
+* Initiate the shell script to move the copy to the working repo:
+** ssh project@<your server address> "./move_incoming_to_working.sh"
+
+Not that you (or the editor, or administrator, or whoever) must have a public key installed in /home/project/.ss.authorized_keys2 file.  How we'll administer this in the long term is a bit of a mystery right now that we need to solve.
