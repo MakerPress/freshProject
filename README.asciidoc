@@ -4,15 +4,16 @@ Here's what you (or your editor) need to do to install it:
 
 * Create a working copy on your local machine
 ** Clone a fresh project repo from the MakerPress account to your local machine.  The command is:
-*** git clone git@github.com:MakerPress/freshProject.git
+*** git clone git@github.com:MakerPress/freshProject.git my_new_project
 ** Modify the _project.ini_ file (project name, author, etc)
-** Commit your changes to the local copy.  The command is:
+** Commit your changes to the local copy:
 *** git commit -a -m"Initial working Repo"
 *  Create a repository on Github for your new project 
 ** Create a new repository in your personal GitHub account.  For example, "my_new_project.git"
 ** Add a remote in your local copy to your new project on GitHub:
-***  git remote add origin git@github.com:odewahn/my_new_project.git
-** Push your changes to your new working project repository on GitHub
+*** git remote rm origin
+*** git remote add origin git@github.com:odewahn/my_new_project.git
+** Push your changes to your new working project repository on GitHub:
 *** git push origin master
 * Push the project to the authoring environment
 ** Add a remote to the repo for your authoring environment
