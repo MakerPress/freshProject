@@ -1,10 +1,26 @@
-This is a blank repository for Maker Press.  Here's what you (or your editor) need to do to install it:
+This is a blank repository for Maker Press.  You (or the editor, or administrator, or whoever) must have a public key installed in /home/project/.ssh/authorized_keys2 file.  How we'll administer this in the long term is a bit of a mystery right now that we need to solve.
 
-* Fork it into your own account
-* Modify the _project.ini_ file (project name, author, etc)
-* Push the repo to your server:
-** git push project@<your server address>:git_incoming
-* Initiate the shell script to move the copy to the working repo:
-** ssh project@<your server address> "./move_incoming_to_working.sh"
+Here's what you (or your editor) need to do to install it:
 
-Not that you (or the editor, or administrator, or whoever) must have a public key installed in /home/project/.ss.authorized_keys2 file.  How we'll administer this in the long term is a bit of a mystery right now that we need to solve.
+* Create a working copy on your local machine
+** Clone a fresh project repo from the MakerPress account to your local machine.  The command is:
+*** git clone git@github.com:MakerPress/freshProject.git
+** Modify the _project.ini_ file (project name, author, etc)
+** Commit your changes to the local copy.  The command is:
+*** git commit -a -m"Initial working Repo"
+*  Create a repository on Github for your new project 
+** Create a new repository in your personal GitHub account.  For example, "my_new_project.git"
+** Add a remote in your local copy to your new project on GitHub:
+***  git remote add origin git@github.com:odewahn/my_new_project.git
+** Push your changes to your new working project repository on GitHub
+*** git push origin master
+* Push the project to the authoring environment
+** Add a remote to the repo for your authoring environment
+*** git remote add project project@<your server address>:git_incoming
+** Push the repo to your project server:
+*** git push project master
+** Copy the incoming repository to the working repository:
+*** ssh project@<your server address> "./move_incoming_to_working.sh"
+** Write and edit your project on the server using the wiki
+** Retrieve your local 
+
