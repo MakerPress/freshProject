@@ -9,4 +9,3 @@
 == Manage Repository 
 * Push repository to GitHub
 * Pull repository from GitHub
-
