@@ -7,6 +7,5 @@
 * Generate EPUB preview
 
 == Manage Repository 
-* Link editor to a GitHub repository
-* Push linked repository to GitHub
-* Pull linked repository from GitHub
+* Push repository to GitHub
+* Pull repository from GitHub
