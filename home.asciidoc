@@ -1,7 +1,7 @@
 Welcome to Maker Press!
 
-[introduction]
+[[introduction]]
 
-[chapter1]
+[[chapter1]]
 
-[chapter 2]
+[[chapter 2]]
