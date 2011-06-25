@@ -1,0 +1,12 @@
+[[ _Logo.png ]]
+
+== Useful Links
+* [[Home / TOC |home]]
+* [[View the Getting Started guide]]
+* Create a figure
+* Generate EPUB preview
+
+== Manage Repository 
+* Push repository to GitHub
+* Pull repository from GitHub
+
