@@ -2,7 +2,7 @@
 
 == Useful Links
 * [[Home / TOC |home]]
-* [[View the Getting Started guide]]
+* https://github.com/MakerPress/gettingStartedGuide[View the Getting Started guide]
 * Create a figure
 * Generate EPUB preview
 
